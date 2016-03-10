@@ -3,6 +3,7 @@
 
 <head>
     <title>Olympic Kicks</title>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One:400,700' rel='stylesheet' type='text/css'>
     <link href="/static/style.css" rel="stylesheet">
 </head>
 
@@ -12,16 +13,36 @@
             <div id="title">Olympic Kicks</div>
             <div id="buttons">
                 <a href="#gigs">Find a Show</a>
-                <a href=""></a>
+                <a href="#learn-more">Meet the Band</a>
             </div>
         </div>
         <div id="banner">
             <img src="/static/banner.jpg">
         </div>
     </header>
-    <div class="content"></div>
-    <footer></footer>
+    <div class="card dark" id="gigs">
+        <h2>Gigs</h2>
+        <p>Olympic Kicks currently aren't book for any gigs.</p>
+        <br>
+        <br>
+    </div>
+    <div class="card light" id="learn-more">
+        <h2>Meet the Band</h2>
+        <p>Olympic Kicks is a punk rock band from West Michigan. The band is currently working on writing and recording their first E.P.</p>
+        <h4>We're in the Band!</h4>
+        <p>
+            <ul>
+                <li>Devin Fowler</li>
+                <li>Hoa</li>
+            </ul>
+        </p>
+    </div>
+    <footer class="card dark">
+        <div>Although Olympic Kicks is a real band, any shows listed under <em><a href="#gigs">gigs</a></em> may only be for demonstration purposes.</div>
+        <div>Banner image taken from <a href="//pexels.com">pexels.com</a>, used under the Creative Commons License</div>
+        <div>&copy;<a href="//devinfowler.x10.bz">Devin Fowler</a>, with design inspiration from <a href="//3bytes.xyz">Samuel Steele</a></div>
+    </footer>
 </body>
-<script></script>
+<script src="/static/script.js"></script>
 
 </html>
